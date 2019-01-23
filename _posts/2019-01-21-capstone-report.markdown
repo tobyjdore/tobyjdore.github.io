@@ -54,6 +54,8 @@ This took a while to run over my dataset as I had to reduce each token to its wo
 ----
 ### Modelling
 
+I wanted to ensure that the model wasn't predicting based on really obvious indicators such as party name or the names of party leaders. I used the standard English stopword list from nltk to remove common words such as 'i, me, my, myself, we, our, ours' and so on, and after looking at the coefficients from early modelling I added 'conservative, conservatives, tory, tories, labour, jeremy, corbyn, george, may' so that the model couldn't use them as predictors.
+
 For the majority of my models I used a simple count vectoriser, the exceptions being Doc2vec which uses a specific vectorising approach and Bernoulli Naive Bayes which requires binarised vectors. I tried including a Tf-idf transformer when trying out different model combinations to see whether it would increase the scores. I also experimented with various ranges of ngrams for some models, although this can be a bit of a time consuming rabbit hole.
 
 As this was the first independent NLP project I'd undertaken I just used every model I could think of and compared the results.
@@ -129,6 +131,7 @@ I used Gensim's LDA model to identify topic groups. The model identified six gro
 - Crime
 - Global
 - Business
+
 I plotted the topic split for each party:
 
 ![Topic split by party](/images/capstone/topics.png "Topic split by party")
