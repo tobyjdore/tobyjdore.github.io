@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "UK Political Speech Classifier"
-date:   2019-01-20 13:57:19 +0000
+date:   2019-01-23 13:57:19 +0000
 categories: ukpol project
 permalink: /:categories
 ---
