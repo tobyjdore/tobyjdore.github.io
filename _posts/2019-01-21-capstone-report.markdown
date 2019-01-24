@@ -101,6 +101,10 @@ I found that models applied to a simple count vectoriser worked better than more
 I used flask to build a web app for the MLP Classifier model and deployed it
 [here](http://tobyjdore.pythonanywhere.com){:target='blank'}.
 
+When I deployed the app I realised that entering no information returned a default probability of 0.62 that the speaker was Conservative. To get around this I manually set a threshold of 0.62 to return Conservative and scaled the displayed probabilities so that a 0.62/0.38 split would be displayed as 0.5/0.5
+
+I also included a check that transformed the entered speech and counted the total number of predictor words in it. If there were none (because the text box was blank or no words were entered that appeared in the training data) then it would return 'No data' on the prediction page.
+
 ----
 ### Possible further investigation
 
