@@ -8,10 +8,10 @@ permalink: /:categories
 
 {% for image in site.static_files %}
     {% if image.path contains 'images/band-maps' %}
-        <div class="newcontainer">
-          <a href="{{ site.baseurl }}{{ image.path }}"><img src="{{ site.baseurl }}{{ image.path }}" width="200" height="200" alt="{{ image.title }}">
-          <div class="centered"><h2>{{ image.basename | replace: "-", " " }}</h2></div></a>
-        </div>
+    <div class="newcontainer">
+      <a href="{{ site.baseurl }}{{ image.path }}"><img src="{{ site.baseurl }}{{ image.path }}" width="200" height="200" alt="{{ image.title }}">
+      <div class="centered"><h2>{{ image.basename | replace: "-", " " }}</h2></div></a>
+    </div>
     {% endif %}
 {% endfor %}
 
