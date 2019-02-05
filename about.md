@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I created this page to host my General Assembly capstone project.
+I'm a Brighton based Data Scientist. When I say Data Scientist I mean I've studied Data Science and am now looking for a junior role in Brighton, so if you like what you see then get in touch.
 
-At some point I will probably move my
-[wordpress blog](https://mydsblog.home.blog){:target="_blank"} over as well.
+Also check out my
+[wordpress blog](https://mydsblog.home.blog){:target="blank"}.
