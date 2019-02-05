@@ -24,9 +24,12 @@ github_username:  tobyjdore
 
 # Build settings
 markdown: kramdown
-theme: jekyll-swiss
+#theme: jekyll-swiss
 plugins:
   - jekyll-feed
+
+sass:
+  sass_dir: _sass
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
