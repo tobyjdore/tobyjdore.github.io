@@ -1,1 +1,1 @@
-my github blog
+https://tobyjdore.github.io
