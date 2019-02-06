@@ -8,22 +8,22 @@
         "_theme-black.scss"
 ;
 
+.clipthumbcontainer {
+height: 200px;
+width: 200px;
+overflow: hidden;
+float: left;
+padding: 2px 5px;
+position: relative;
+text-align: center;
+color: pink; }
+
 .thumbcontainer {
   float: left;
   padding: 2px 5px;
   position: relative;
   text-align: center;
   color: white; }
-
-.clipthumbcontainer {
-  height: 200px;
-  width: 200px;
-  overflow: hidden;
-  float: left;
-  padding: 2px 5px;
-  position: relative;
-  text-align: center;
-  color: pink; }
 
 /* Bottom left text */
 .bottom-left {
