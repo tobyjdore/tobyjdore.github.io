@@ -18,13 +18,6 @@ position: relative;
 text-align: center;
 color: pink; }
 
-.thumbcontainer {
-  float: left;
-  padding: 2px 5px;
-  position: relative;
-  text-align: center;
-  color: white; }
-
 /* Bottom left text */
 .bottom-left {
   position: absolute;
@@ -54,4 +47,19 @@ color: pink; }
   position: absolute;
   top: 42%;
   left: 50%;
-  transform: translate(-50%, -50%); }
+  transform: translate(-50%, -50%); };
+
+
+
+.thumbcontainer {
+  float: left;
+  padding: 2px 5px;
+  position: relative;
+  text-align: center;
+  color: white; }
+
+.centered {
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  transform: translate(-50%, -50%); };
