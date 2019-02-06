@@ -10,7 +10,7 @@ I'll write up a report on this project soon, but until then you can see details 
 
 {% for image in site.static_files %}
     {% if image.path contains 'images/band-maps' %}
-<div class="newcontainer">
+<div class="thumbcontainer">
   <a href="{{ site.baseurl }}{{ image.path }}"><img src="{{ site.baseurl }}{{ image.path }}" width="200" height="200" alt="{{ image.title }}">
   <div class="centered"><h2>{{ image.basename | replace: "-", " " }}</h2></div></a>
 </div>
