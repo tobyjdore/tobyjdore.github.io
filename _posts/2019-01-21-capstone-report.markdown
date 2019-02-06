@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title:  "UK Political Speech Classifier"
 date:   2019-01-23 13:57:19 +0000
 categories: ukpol project
