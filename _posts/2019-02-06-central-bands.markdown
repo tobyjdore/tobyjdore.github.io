@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Central bands"
+title:  "Central Bands"
 date:   2019-02-06 10:37:00 +0000
 categories: central-bands
 permalink: /:categories
