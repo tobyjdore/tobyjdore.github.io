@@ -5,8 +5,7 @@ date:   2019-02-04 20:37:00 +0000
 categories: band-maps
 permalink: /:categories
 ---
-
-I'll write up a report on this project soon, but until then you can see details on how I made these graphs in [the GitHub repo](https://github.com/tobyjdore/band-maps).
+Read the project report [here](https://tobyjdore.github.io/how-i-wrote-band-maps), and you can see details on how I made these graphs in [the GitHub repo](https://github.com/tobyjdore/band-maps).
 
 {% for image in site.static_files %}
     {% if image.path contains 'images/band-maps' %}

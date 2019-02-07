@@ -7,8 +7,11 @@
 @import
         "_theme-black.scss"
 ;
+.img_container{
+  text-align: center;
+};
 
-.clipthumbcontainer {
+.cropthumbcontainer {
 height: 200px;
 width: 200px;
 overflow: hidden;
@@ -49,8 +52,6 @@ color: pink; }
   top: 42%;
   left: 50%;
   transform: translate(-50%, -50%); };
-
-
 
 .thumbcontainer {
   float: left;
