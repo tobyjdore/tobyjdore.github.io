@@ -8,17 +8,6 @@
         "_theme-black.scss"
 ;
 
-.thumbcontainer {
-  height: 200px;
-  width: 200px;
-  float: left;
-  margin-right: 10px;
-  margin-bottom: 4px;
-  position: relative;
-  text-align: center;
-  color: white;
-}
-
 .cropthumbcontainer {
 height: 200px;
 width: 200px;
@@ -55,6 +44,27 @@ color: pink;
   right: 16px; }
 
 /* Centered text */
+.centered {
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+;
+
+
+
+.thumbcontainer {
+  height: 200px;
+  width: 200px;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 4px;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
 .centered {
   position: absolute;
   top: 42%;
