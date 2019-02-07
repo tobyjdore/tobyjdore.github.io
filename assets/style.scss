@@ -7,9 +7,6 @@
 @import
         "_theme-black.scss"
 ;
-.img_container{
-  text-align: center;
-};
 
 .cropthumbcontainer {
 height: 200px;
@@ -66,3 +63,7 @@ color: pink; }
   top: 42%;
   left: 50%;
   transform: translate(-50%, -50%); };
+
+.img_container{
+  text-align: center;
+};
