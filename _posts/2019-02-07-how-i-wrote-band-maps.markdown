@@ -105,9 +105,7 @@ Networkx has a really straightforward function called `.draw` which gives you a 
 
 So, this is what we ended up with (click to enlarge):
 
-<div class="img_container">
 [![Fugazi plot](/images/how-i-wrote-band-maps/fugazi.png "Fugazi plot"){:height="400px" width="400px"}](/images/how-i-wrote-band-maps/fugazi.png)
-</div>
 
 Pretty sweet.
 
