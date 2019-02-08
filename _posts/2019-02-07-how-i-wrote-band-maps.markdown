@@ -114,7 +114,7 @@ Pretty sweet.
 
 For a quick list of bands to build graphs for I turned to [the NME's 100 most influential artists](https://www.nme.com/photos/nme-s-100-most-influential-artists-50-1-1411863){:target="blank"}. It had a few shocking omissions (no Pixies? no Talking Heads?) which I added in manually, along with a few of my own favourites (Shellac, Themselves, etc).
 
-I banged my head against a load of CSS to make [this nice gallery](https://tobyjdore.github.io/band-maps){:target="blank"}. I won't go into the details too much, but if you have a look at the [repo](https://github.com/tobyjdore/tobyjdore.github.io){:target="blank"} for this blog you'll see that it just involved looping through the images folder to create thumbnail links with overlaid text. The nice thing is that all I have to do to add more images is save them into the folder and the page will automatically alphabetise them and create links.
+I banged my head against a load of CSS to make [this nice gallery](https://tobyjdore.github.io/band-maps){:target="blank"}. I won't go into the details too much, but if you have a look at the [repo](https://github.com/tobyjdore/tobyjdore.github.io){:target="blank"} for this blog you'll see that it just involved looping through the images folder to create thumbnail links with overlaid text. The nice thing is that all I have to do to add more images is save them into the folder and the page will automatically alphabetise them and create links. Yeah, I could have them opening in a lightbox rather than a window, but I'm not a web dev.
 
 ----
 ### Where It Didn't Work
